@@ -156,10 +156,6 @@ Sound.enableInSilenceMode = function(enabled) {
   }
 };
 
-if (!IsAndroid) {
-  Sound.enable(true);
-}
-
 Sound.MAIN_BUNDLE = RNSound.MainBundlePath;
 Sound.DOCUMENT = RNSound.NSDocumentDirectory;
 Sound.LIBRARY = RNSound.NSLibraryDirectory;
